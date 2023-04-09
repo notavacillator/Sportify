@@ -1,0 +1,50 @@
+{
+    "users": [
+      {
+        "name": "Rahul Gandhi",
+        "id": "220940120012",
+        "city": "Lucknow"
+      },
+      {
+        "name": "Priya Singh",
+        "id": "220940120013",
+        "city": "Delhi"
+      },
+      {
+        "name": "Amit Patel",
+        "id": "220940120014",
+        "city": "Mumbai"
+      },
+      {
+        "name": "Sneha Verma",
+        "id": "220940120015",
+        "city": "Bangalore"
+      },
+      {
+        "name": "Nitin Gupta",
+        "id": "220940120016",
+        "city": "Hyderabad"
+      },
+      {
+        "name": "Shreya Sharma",
+        "id": "220940120017",
+        "city": "Chennai"
+      },
+      {
+        "name": "Ankit Mishra",
+        "id": "220940120018",
+        "city": "Kolkata"
+      },
+      {
+        "name": "Saurabh Singh",
+        "id": "220940120019",
+        "city": "Jaipur"
+      },
+      {
+        "name": "Ritu Jain",
+        "id": "220940120020",
+        "city": "Ahmedabad"
+      }
+    ]
+  }
+  

@@ -1,0 +1,17 @@
+/* Add this CSS to your App.css file */
+
+.App {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+  }
+  
+  .FooterComponent {
+    margin-top: auto; /* This pushes the footer to the bottom */
+    position: sticky;
+    bottom: 0;
+    width: 100%;
+  }
+
+ 
+  

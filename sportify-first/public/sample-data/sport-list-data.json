@@ -1,0 +1,16 @@
+[
+    { "sportId": 1, "sportName": "Running" },
+    { "sportId": 2, "sportName": "Swimming" },
+    { "sportId": 3, "sportName": "Cycling" },
+    { "sportId": 4, "sportName": "Football" },
+    { "sportId": 5, "sportName": "Basketball" },
+    { "sportId": 6, "sportName": "Tennis" },
+    { "sportId": 7, "sportName": "Volleyball" },
+    { "sportId": 8, "sportName": "Baseball" },
+    { "sportId": 9, "sportName": "Golf" },
+    { "sportId": 10, "sportName": "Hiking" },
+    { "sportId": 11, "sportName": "Boxing" },
+    { "sportId": 12, "sportName": "Wrestling" },
+    { "sportId": 13, "sportName": "Chess" }
+  ]
+  

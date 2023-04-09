@@ -1,0 +1,20 @@
+
+
+.footer-icons {
+    position: relative;
+    bottom: 0;
+    right: 0;
+    /* height: 5rem; */
+    /* margin: 10px; */
+  }
+
+  .footer-container{
+    position: relative;
+    bottom: 0;
+    min-height: 30vh;
+    padding: 4rem;
+    margin-top: 1rem;
+  }
+
+ 
+  

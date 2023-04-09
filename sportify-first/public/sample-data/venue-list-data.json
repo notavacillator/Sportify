@@ -1,0 +1,118 @@
+[
+    {
+      "venueId": 1,
+      "groundName": "Desire Sports Grounds",
+      "address": "Loni Kalbhor",
+      "landmark": "Near MIT Gurukul, Railway Station",
+      "city": {
+        "cityId": 1,
+        "name": "PUNE",
+        "state": "MAHARASHTRA"
+      },
+      "pincode": 412201,
+      "sportsAllowed": [
+        {
+          "sportId": 1,
+          "sportName": "CRICKET"
+        },
+        {
+          "sportId": 2,
+          "sportName": "FOOTBALL"
+        }
+      ],
+      "facilities": "Full-size cricket ground with 70m boundary,Full-size football ground, A multipurpose ground in an area of around 1,20,000 sq.ft.,Ground for track and field events,Skating Rink,Cricket practice pitches,Open air fitness area,Canteen Facility",
+      "timings": "Mon - Sun 9:00 am - 10:00 pm",
+      "imageURL": null
+    },
+    {
+        "venueId": 2,
+        "groundName": "Gangadhar Sports Ground",
+        "address": "Nanded City",
+        "landmark": "Near Manikchand Malabar Hills",
+        "city": {
+          "cityId": 1,
+          "name": "PUNE",
+          "state": "MAHARASHTRA"
+        },
+        "pincode": 411041,
+        "sportsAllowed": [
+          {
+            "sportId": 1,
+            "sportName": "CRICKET"
+          },
+          {
+            "sportId": 2,
+            "sportName": "FOOTBALL"
+          },
+          {
+            "sportId": 3,
+            "sportName": "BASKETBALL"
+          }
+        ],
+        "facilities": "Full-size cricket ground with 65m boundary, Full-size football ground, Basketball court, Skating Rink, Open air fitness area, Canteen Facility",
+        "timings": "Mon - Sun 8:00 am - 9:00 pm",
+        "imageURL": null
+      },
+      {
+        "venueId": 3,
+        "groundName": "Nisarg Sports Club",
+        "address": "Narhe Ambegaon Road",
+        "landmark": "Near Mitcon Institute of Management",
+        "city": {
+          "cityId": 1,
+          "name": "PUNE",
+          "state": "MAHARASHTRA"
+        },
+        "pincode": 411041,
+        "sportsAllowed": [
+          {
+            "sportId": 1,
+            "sportName": "CRICKET"
+          },
+          {
+            "sportId": 2,
+            "sportName": "FOOTBALL"
+          },
+          {
+            "sportId": 4,
+            "sportName": "TENNIS"
+          },
+          {
+            "sportId": 5,
+            "sportName": "BASKETBALL"
+          }
+        ],
+        "facilities": "Full-size cricket ground with 75m boundary, Full-size football ground, Two tennis courts, Basketball court, Volleyball court, Badminton court, Swimming pool, Gym, Canteen Facility",
+        "timings": "Mon - Sun 7:00 am - 10:00 pm",
+        "imageURL": null
+      },
+      {
+        "venueId": 4,
+        "groundName": "Dhanraj Sports Academy",
+        "address": "Karve Nagar",
+        "landmark": "Near Cummins College",
+        "city": {
+          "cityId": 1,
+          "name": "PUNE",
+          "state": "MAHARASHTRA"
+        },
+        "pincode": 411052,
+        "sportsAllowed": [
+          {
+            "sportId": 1,
+            "sportName": "CRICKET"
+          },
+          {
+            "sportId": 2,
+            "sportName": "FOOTBALL"
+          },
+          {
+            "sportId": 6,
+            "sportName": "TABLE TENNIS"
+          }
+        ],
+        "facilities": "Full-size cricket ground with 70m boundary, Full-size football ground, Table tennis hall, Gym, Canteen Facility",
+        "timings": "Mon - Sun 9:00 am - 8:00 pm",
+        "imageURL": null
+      }
+    ]

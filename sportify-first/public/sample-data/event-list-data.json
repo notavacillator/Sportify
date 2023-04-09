@@ -1,0 +1,48 @@
+[
+    {
+      "id": 1,
+      "sport": "Table Tennis",
+      "venue": "Sanjay Sports academy",
+      "datetime": "2023-03-30T15:00:00",
+      "playersJoined": 8,
+      "requirements": "Spike boots, proper jersey",
+      "creator": "Yashvi Malu."
+    },
+    {
+      "id": 2,
+      "sport": "Football",
+      "venue": "XYZ Stadium",
+      "datetime": "2023-04-15T19:30:00",
+      "playersJoined": 12,
+      "requirements": "Football cleats, shin guards",
+      "creator": "John Doe"
+    },
+    {
+      "id": 3,
+      "sport": "Swimming",
+      "venue": "ABC Pool",
+      "datetime": "2023-05-02T10:00:00",
+      "playersJoined": 5,
+      "requirements": "Swimsuit, goggles, swim cap",
+      "creator": "Jane Smith"
+    },
+    {
+      "id": 4,
+      "sport": "Basketball",
+      "venue": "PQR Sports Complex",
+      "datetime": "2023-06-12T14:00:00",
+      "playersJoined": 10,
+      "requirements": "Basketball shoes, knee pads",
+      "creator": "Mike Johnson"
+    },
+    {
+      "id": 5,
+      "sport": "Yoga",
+      "venue": "Sunset Yoga Studio",
+      "datetime": "2023-07-01T08:00:00",
+      "playersJoined": 15,
+      "requirements": "Yoga mat, comfortable clothes",
+      "creator": "Emily Brown"
+    }
+  ]
+  

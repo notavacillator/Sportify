@@ -1,0 +1,47 @@
+colors - 
+background creem - #F4F9F0
+parrot green - #CBEF59
+algae green - #9DF6DA
+blanket blue - #83EFF2
+river blue - #ABD0FD
+skiest blue - #D5F6FD
+pulp purple - #726BDB
+
+
+
+font - 
+Heading Cursive - 'Climate Crisis'      @import url('https://fonts.googleapis.com/css2?family=Climate+Crisis&display=swap');
+Regulas SS - 'Nunito'                   @import url('https://fonts.googleapis.com/css2?family=Nunito:wght@500&display=swap');
+
+
+
+*************************************
+
+
+
+Color styles - 
+    blue - #69D2E7 
+    green - #7FBC8C 
+    yellow - #F4D738
+    red - #FF6B6B
+    pink - #FF69B1
+    purple - #9723C9
+
+
+
+Component Design -
+    border solid rounded black with :shadow 
+
+Component :shadow - 
+    color : black
+    x = 4
+    y = 6
+    blur = 0
+    opacity = 100%
+
+Typography - 
+    Lexend Mega,
+    Public Sans,
+    Mabry Pro,
+    Archivo Black, 
+    Bebas Ka

@@ -1,0 +1,160 @@
+.browse-events-section{
+    margin: 0rem auto;
+}
+
+.section-header{
+    position: sticky;
+    margin: 0rem auto;
+    min-height: 10vh;
+    top: 0;
+    background-color: #71affad3;
+    border-bottom: 0.2rem solid black;
+    z-index: 1;
+}
+
+.header-first-flex{
+    /* background-color: red; */
+    padding: 0.5rem 2rem;
+
+}
+
+.header-second-flex{
+    padding: 0.5rem 0; 
+}
+
+.city-name-edit{
+    padding: 0.2rem;
+    /* background-color: blue; */
+}
+
+.city-name-edit h1{
+    /* font-family: 'Climate crisis'; */
+    font-size: 2rem;
+}
+
+.create-event{
+    padding: 0.2rem;
+    /* background-color: yellow; */
+    
+}
+
+
+.edit-city-icon{
+    transform: scale(1.5);
+    cursor: pointer;
+}
+
+.create-event-icon{
+    /* cursor: pointer; */
+}
+
+.create-event-link  {
+
+    font-style: normal;
+    text-decoration: none;
+    color: black;
+}
+
+.filter-set{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin: 0rem 0;
+}
+
+.event-list-section{
+    margin: 0rem auto;
+    padding: 1.5rem;
+    width: 100vw;
+    background-color: #F4F9F0;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 20px;
+}
+
+  
+  @media (min-width: 1000px) {
+    .event-list-section {
+      grid-template-columns: repeat(3, 1fr);
+    }
+  }
+
+  @media (max-width: 800px) {
+    .event-list-section {
+      grid-template-columns: repeat(1, 1fr);
+    }
+  }
+  
+
+.event-card{
+    margin: 2rem 1rem;
+    padding: 1rem;
+    background-color: #34edf3;
+    /* display: flex; */
+    position: relative;
+}
+
+.join-event{
+ position:absolute;   
+ bottom: 1rem;
+ right: 1rem;
+ padding: 0 0.2rem;
+     max-width:auto; 
+    /* margin: 0 auto 16px auto; */
+    background-color: #F4D738;
+    border: 2px solid black;
+    border-radius: 0.2rem;
+    box-shadow: 3px 5px 0 black;
+    text-align: center;
+    font-weight: 900;
+    text-transform: uppercase;
+    cursor: pointer;
+    transition: ease 0.3s all;
+}
+
+.event-card .event-ground-image {
+    object-fit: contain;
+}
+
+
+.event-ground-image img{
+    max-width: 100%;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.brutal-card{
+    /* background-color: #9723c9; */
+    border: 3px solid black;
+    background: linear-gradient(90deg, #b964ff 0%, #e62aff 100%);
+    border-radius: 5px; 
+    box-shadow: 4px 6px 0 black;
+}
+    
+.brutal-button{
+    max-width:auto; 
+    /* margin: 0 auto 16px auto; */
+    background-color: #F4D738;
+    border: 2px solid black;
+    border-radius: 0.2rem;
+    box-shadow: 3px 5px 0 black;
+    text-align: center;
+    font-weight: 900;
+    text-transform: uppercase;
+    cursor: pointer;
+    transition: ease 0.3s all;
+}
+
+
+
+.brutal-button:hover{
+    background-color: #c2ad36;
+    cursor: pointer;
+}
+
+.brutal-button:active{
+    box-shadow: 1px 2px 0 black;
+}
+
+  

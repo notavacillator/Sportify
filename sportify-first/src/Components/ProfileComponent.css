@@ -1,0 +1,25 @@
+.profile-image {
+  border-radius: 50%;
+  border: 3px solid black;
+  padding: 0px;
+}
+
+.profile-page-comp {
+  height: 20vh;
+}
+
+.nav li {
+  width: 100%;
+  margin: 0;
+  padding: 0;
+  text-decoration: none;
+}
+
+li a {
+  width: 100%;
+}
+
+.active {
+  background-color: rgb(198, 160, 235);
+  color: whitesmoke !important;
+}

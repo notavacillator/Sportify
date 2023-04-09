@@ -1,0 +1,79 @@
+
+.about-us-comp{
+    background-color:  #83EFF2;
+    /* #D5F6FD */
+   
+}
+
+  i.fas.fa-search {
+    color: red;
+  }
+
+.page-section{
+    /* margin: 0 auto; */
+    margin: 2rem auto;
+    width: 95vw;
+}
+
+.about-us-profiles{
+    margin: 5rem auto;
+    width: auto;
+}
+
+  h1{
+    font-family: sans-serif;
+  }
+
+
+
+  .brutal-profile-container{
+    max-height: 30rem;
+    width: 20rem;
+  }
+
+
+
+  .brutal-profile-image {
+    transition: all 0.3s ease;
+  }
+  
+  .brutal-profile-image:hover {
+    transform: scale(1.1);
+  }
+  
+
+
+  .brutal-profile-image {
+    height: 100%;
+    width: 100%;
+    border: 2px solid black;
+    box-shadow: 6px 2px 0 black;
+    background-size: cover;
+    border-radius: 3rem;
+    overflow: hidden;
+    /* transition: transform 0.5s ease; */
+    /* object-fit:fill; */
+  }
+
+  .brutal-profile-image img {
+    object-fit: cover;
+    height: 120%;
+    /* transform: scale(1.1); */
+  }
+
+  .brutal-profile-desc{
+    max-width: 80%;
+    min-width: 70%;
+    border: 2px solid black;
+    box-shadow: 6px 2px 0 black;
+    border-top: none;
+    border-end-end-radius: 3rem;
+    border-end-start-radius: 3rem;
+    background-color: rgb(255, 91, 91);
+  }
+
+  .img-responsive {
+    max-width: 100%;
+    height: auto;
+  }
+  

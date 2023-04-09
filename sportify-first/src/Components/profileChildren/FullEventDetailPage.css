@@ -1,0 +1,9 @@
+.participants::-webkit-scrollbar {
+  display: none;
+}
+@media screen and (max-width= 600px) {
+  .participants {
+    overflow-y: scroll;
+    height: 300px !important;
+  }
+}

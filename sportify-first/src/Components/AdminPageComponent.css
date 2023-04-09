@@ -1,0 +1,70 @@
+.admin-home-container{
+    margin: 2rem auto; 
+    min-width: 90vw;
+    min-height: 100vh;
+    width: 80vw;
+    padding: 2rem;
+    border: 0.2rem solid black;
+    background-color: #d4f779;
+}
+
+.admin-page-heading h2{
+    text-align: center;
+    font-family: 'Climate Crisis', cursive;
+    font-size: 4rem;
+}
+
+.user-cards-list{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    align-items: stretch;
+    padding: 2rem;
+    gap: 4rem;
+}
+
+.user-profile{
+    flex: 1;
+    flex-basis: calc(33.33% - 4rem);
+    margin: 1rem 0;
+    padding: 1rem;
+    border: 0.15rem solid #282525;
+    box-shadow: 5px 7px 0 #282525;
+    /* background-color: #54cc6e; */
+    border-radius: 1rem;
+    position: relative;
+    max-width: calc(33.33% - 4rem);
+    transition: all 0.3s ease;
+}
+
+.user-profile:hover{
+    box-shadow: none;
+}
+
+.user-profile:nth-child(even) {
+    background-color: #7efccc; /* set the background color for even elements */
+  }
+  
+  .user-profile:nth-child(odd) {
+    background-color: #fc8bf5; /* set the background color for odd elements */
+  }
+
+.delete-icon {
+  position: absolute;
+  bottom: 10%;
+  right: 5%;
+  color: white;
+  background-color: #ee0202;
+  padding: 0.5rem 0.8rem;
+  border: 1px solid #282525;
+  border-radius: 0.5rem;
+  box-shadow: 2px 3px 0 #282525;
+  transition: all 0.5s ease;
+}
+
+.delete-icon:hover {
+  background-color: rgb(194, 24, 24);
+  color: #fff;
+  cursor: pointer;
+  box-shadow: none;
+}

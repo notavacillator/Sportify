@@ -1,0 +1,11 @@
+.create-event-container{
+    min-width: 60vw;
+    max-width: 80vw;
+    margin: 1rem auto;
+    border: 0.2rem solid rgba(71, 71, 71, 0.836);
+    padding: 2rem;
+}
+
+.create-event-header{
+    text-align: center;
+}
