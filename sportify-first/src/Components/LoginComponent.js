@@ -1,5 +1,5 @@
 import React from "react";
-import "./LoginComponent.css";
+import styles from '../Components/LoginComponent.module.css'; 
 import { axiosUserMS } from "../app/api/sportify-api";
 import { useState, useEffect, useRef } from "react";
 import useAuth from "../hooks/useAuth";
@@ -86,7 +86,7 @@ function LoginComponent() {
       <p ref={errRef} className={errMsg ? "errmsg" : "offscreen"}>
         {errMsg}
       </p>
-      <div className="form-container m-auto bg-light p-5 brutal-card row">
+      <div className={`${styles['form-container']} m-auto p-5 row ${styles['brutal-card']}`}>
         <h2 className="">Sign In </h2>
         <form onSubmit={handleSubmit}>
           <div className="form-outline mb-4 form-group">
@@ -142,7 +142,7 @@ function LoginComponent() {
 
           <button
             type="submit"
-            className="brutal-button btn btn-primary btn-block mb-4 d-flex justify-content-center"
+            className="styles.brutal-button btn btn-primary btn-block mb-4 d-flex justify-content-center"
           >
             Sign in
           </button>

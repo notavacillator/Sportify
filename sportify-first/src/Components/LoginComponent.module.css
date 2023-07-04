@@ -1,0 +1,17 @@
+.form-container h2{
+    text-align: center;
+    /* border: 2px solid black; */
+}
+
+.brutal-button{
+    text-align: center;
+    color: black;
+}
+
+.brutal-card{
+    /* background-color: #9723c9; */
+    border: 3px solid black;
+    background: linear-gradient(90deg, #f9f4fc 0%, #c2bdc2 100%);
+    border-radius: 5px; 
+    box-shadow: 4px 6px 0 black;
+}

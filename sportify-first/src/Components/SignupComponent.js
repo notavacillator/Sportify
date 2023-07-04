@@ -114,7 +114,7 @@ function Signup() {
             <div className="container h-100">
               <div className="row d-flex justify-content-center align-items-center h-100">
                 <div className="col-12 col-md-9 col-lg-7 col-xl-6">
-                  <div className="bg-light mt-4 brutal-card" style={cardStyle}>
+                  <div className="bg-light mt-4 " style={cardStyle}>
                     <div className="card-body p-5 ">
                       <p
                         ref={errRef}
