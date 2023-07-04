@@ -10,6 +10,37 @@
             "name": "Launch Chrome against localhost",
             "url": "http://localhost:8080",
             "webRoot": "${workspaceFolder}"
+        },
+        {
+            "type": "java",
+            "name": "Spring Boot-SportifyEventV1Application<SportifyEventV1>",
+            "request": "launch",
+            "cwd": "${workspaceFolder}",
+            "mainClass": "com.sportify.SportifyEventV1Application",
+            "projectName": "SportifyEventV1",
+            "args": "",
+            "envFile": "${workspaceFolder}/.env",
+            "vmArgs": " -Dcom.sun.management.jmxremote -Dcom.sun.management.jmxremote.port=53241 -Dcom.sun.management.jmxremote.authenticate=false -Dcom.sun.management.jmxremote.ssl=false -Dspring.jmx.enabled=true -Djava.rmi.server.hostname=localhost -Dspring.application.admin.enabled=true -Dspring.boot.project.name=SportifyEventV1"
+        },
+        {
+            "type": "java",
+            "name": "Spring Boot-SportifyUserV1Application<SportifyUserV1>",
+            "request": "launch",
+            "cwd": "${workspaceFolder}",
+            "mainClass": "com.sportify.SportifyUserV1Application",
+            "projectName": "SportifyUserV1",
+            "args": "",
+            "envFile": "${workspaceFolder}/.env"
+        },
+        {
+            "type": "java",
+            "name": "Spring Boot-SportifyVscv11Application<SportifyVSCV1-1>",
+            "request": "launch",
+            "cwd": "${workspaceFolder}",
+            "mainClass": "com.sportify.SportifyVscv11Application",
+            "projectName": "SportifyVSCV1-1",
+            "args": "",
+            "envFile": "${workspaceFolder}/.env"
         }
     ]
 }
