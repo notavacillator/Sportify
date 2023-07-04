@@ -16,3 +16,4 @@
 /coverage
 /.metadata/
 .vscode/settings.json
+.vscode/launch.json
